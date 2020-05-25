@@ -1,0 +1,13 @@
+__pycache__/
+*__MACOSX/
+.DS_Store
+*.ipynb_checkpoints
+*.zip
+*.pyc
+*.txt
+*.json
+*.tsv
+*.csv
+*.db
+*.bin
+*.npz
