@@ -48,7 +48,7 @@ Optional argument:
 ```
 optional arguments:
   --store_dev_test_augmented_data
-                        Augment eval data. By default we keep eval data as is.
+                        set true to augment dev/test data. By default we keep eval data as is.
   --sample_ratio SAMPLE_RATIO
                         the random sample rate for original data to be used.
   --sample_ratio_augmentation SAMPLE_RATIO_AUGMENTATION
@@ -62,7 +62,7 @@ optional arguments:
 You can train our models from scratch or download the checkpoints we trained. The pre-trained weights can be downloaded from [here](https://drive.google.com/drive/folders/1ORfqbYNtuGRMRmJ2PWpd7RwAWMyEcEjP?usp=sharing). 
 
 ### WIQA 
-You can train our RoBERTa baseline, RoBERTa+DA, and RoBERTa + DA + Regularization models using the commands below.  
+You can train our RoBERTa baseline, RoBERTa+DA, and RoBERTa + DA + Consistency models by running the commands below.  
 
 You can reduce the number of `gradient_accumulation_steps` if you use multiple GPUs. We set the `per_gpu_train_batch_size` to fit a single GPU with 11 GB GPU Memory, and you can increase the number.   
 
