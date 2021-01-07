@@ -1,0 +1,5 @@
+torch==1.3.0
+pytorch-transformers==1.2.0
+tqdm
+jsonlines
+numpy
